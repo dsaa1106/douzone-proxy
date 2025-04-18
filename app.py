@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route('/api/alarms')
 def get_alarms():
-    client_id = '여기에_당신의_client_id_입력'
-    url = f'https://openapi.douzone.com/api/alarms?client_id={client_id}'
+    client_id = 'e3c2b8bbc4f2e4ef'
+    url = f'https://openapi.douzone.com/api/alarms?client_id=e3c2b8bbc4f2e4ef'
 
     try:
         response = requests.get(url)
