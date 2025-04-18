@@ -18,6 +18,6 @@ def get_alarms():
 
 if __name__ == '__main__':
 	import os
-    port = int(os.environ.get('PORT', 5000))  # Render가 할당한 포트를 사용
-    print(f"==> 포트 확인: (port)")
+    port = int(os.environ.get("PORT", 5000))  # Render가 할당한 포트를 사용
+ print(f"==> 포트 확인: {PORT}")
 	app.run(host='0.0.0.0', port=port)
