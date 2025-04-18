@@ -1,6 +1,6 @@
 services:
-  - type: web
-    name: douzone-proxy
+ - type: web
+   name: douzone-proxy
     env: python
     buildCommand: ""
     startCommand: python app.py
